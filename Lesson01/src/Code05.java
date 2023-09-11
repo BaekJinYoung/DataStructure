@@ -1,6 +1,5 @@
 
 public class Code05 {
-
 	public static void main(String[] args) {
 		// in C, int grades[5];
 		
@@ -25,5 +24,4 @@ public class Code05 {
 		System.out.println(grades[4]);
 
 	}
-
 }

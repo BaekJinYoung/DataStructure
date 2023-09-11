@@ -1,6 +1,5 @@
 
 public class Code07 {
-
 	public static void main(String[] args) {
 		int [] grades;
 		grades = new int[5];
@@ -17,7 +16,5 @@ public class Code07 {
 			System.out.println("Grade " + (i+1) + ": " + grades[i]);
 			i++;
 		}
-
 	}
-
 }
