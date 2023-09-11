@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class Code04 {
-
 	public static void main(String[] args) {
 		String name = null;
 		int age;
@@ -15,15 +14,13 @@ public class Code04 {
 		age = keyboard.nextInt();
 		gender = keyboard.next();
 		
-		if (gender.equals("male"))
-			System.out.println(name + ", you're" + age + " years old man ");
+		if (gender.equals("male")) // string literal
+			System.out.println(name + ", you're " + age + " years old man ");
 		else if (gender.equals("female"))
-			System.out.println(name + ",you're" + age + " years old woman.");
+			System.out.println(name + ",you're " + age + " years old woman.");
 		else
 			System.out.println("Hmm... interesting.");
 		
 		keyboard.close();
-
 	}
-
 }
