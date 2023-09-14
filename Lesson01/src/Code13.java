@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class Code13 {
-
 	public static void main(String[] args) {
 		Scanner kb = new Scanner(System.in);
 		int n = kb.nextInt();
@@ -30,8 +29,8 @@ public class Code13 {
 			}
 		}
 		if (max > 0)
-			System.out.println(max);
+			System.out.println("The max prime number is " + max);
 		else
-			System.out.println("No prime number");
+			System.out.println("No prime number exists.");
 	}
 }
